@@ -50,6 +50,7 @@ body{
     margin: 0 auto;
     position: relative;
     height: 100%;
+    padding-bottom: 0.7%;
 }
 
 
@@ -172,8 +173,8 @@ body{
 }
 
 .headline{
-    padding-top: 1%;
-    padding-left:1%;
+    padding-top: 3%;
+    padding-left:3%;
     margin-bottom: 0;
 }
 
@@ -185,26 +186,43 @@ body{
     margin:0;
 }
 
+.firstskill{
+    padding-top: 0;
+}
+
 .jobtitle{
     margin:0;
 }
 
+ul{
+    margin-left: -3%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+}
+
 .subsc{
-    padding-bottom: 1%;
-    padding-top: 1%;
-    margin-left: 1%;
-    margin-right: 1%;
+    padding-bottom: 4%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
     border-bottom: 1px solid #325886;
     font-size: 17px;
+}
+
+a:hover{
+    color: #91afff;
+}
+
+#firstskill{
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .subsc:last-child{
     border: 0;
 }
 
-#adress{
 
-}
 
 .icon {
     vertical-align: middle;
@@ -224,7 +242,7 @@ body{
 
 @keyframes slideIn {
     0%   { opacity: 0; transform: translateX(-300px)}
-   100%  { opacity: 1; transform: translateX(0)}
+    100%  { opacity: 1; transform: translateX(0)}
 }
 
 @keyframes slideInRight {
@@ -233,7 +251,7 @@ body{
 }
 .desctitle{
     font-size: 20px;
-    margin:0 0 0 0;
+    margin:-1% 0 0 0;
     color: #325886;
 }
 
@@ -259,8 +277,8 @@ body{
 
 #ITskills{
     color: black;
-    padding-top: 1%;
-    padding-left:1%;
+    padding-top: 3%;
+    padding-left:3%;
 }
 
 .skillbar{
@@ -339,8 +357,8 @@ body{
     top: 1%;
     left: 1%;
     color: black;
-    margin-top: 1%;
-    margin-left: 1%;
+    margin-top: 3%;
+    margin-left: 3%;
 }
 
 .softskills{
@@ -350,7 +368,7 @@ body{
 }
 
 .softskills p{
- margin-top: 0;
+    margin-top: 0;
 }
 
 
@@ -379,10 +397,24 @@ body{
         border-radius: 10px;
     }
 
+    .headline{
+        padding-top: 5%;
+        padding-left:5%;
+        margin-bottom: 0;
+    }
+
     .softskills{
         display: block;
         text-align: center;
     }
+
+    .subsc{
+        padding-bottom: 5%;
+        padding-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
 
     .sideBar{
         position: relative;
