@@ -112,6 +112,7 @@ body{
     opacity: 0;
 }
 
+
 .skills{
     background: white;
     pointer-events: all;
@@ -213,6 +214,11 @@ a:hover{
     opacity: 0.5;
 }
 
+a{
+    color: #325886;
+    text-decoration: none;
+}
+
 #firstskill{
     padding-top: 0;
     margin-top: 0;
@@ -299,18 +305,6 @@ a:hover{
     background-color: #325886;
 }
 
-.c\+\+{
-    width: 70%;
-    border-radius: 8px;
-    background-color: #325886;
-}
-
-.python{
-    width: 10%;
-    border-radius: 8px;
-    background-color: #325886;
-}
-
 .webdev{
     width: 50%;
     border-radius: 8px;
@@ -335,20 +329,8 @@ a:hover{
     background-color: #325886;
 }
 
-.tools{
-    width: 90%;
-    border-radius: 8px;
-    background-color: #325886;
-}
-
-.container{
-    width: 60%;
-    border-radius: 8px;
-    background-color: #325886;
-}
-
-.microsoft{
-    width: 90%;
+.test{
+    width: 70%;
     border-radius: 8px;
     background-color: #325886;
 }
